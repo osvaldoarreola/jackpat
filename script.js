@@ -10,7 +10,7 @@ el.src = "images/orange_slot.PNG";
 }else if (el.src.match("images/orange_slot.PNG")){
 // if the image is an orange, change it to a cherry!
 el.src = "images/waterberry.png"
-}else if (el.src.match("images/waterberry.png")){
+}else if (el.src.match("images/waterberry.PNG")){
 // if the image is an orange, change it to a cherry!
 el.src = "images/seven.png"
 }else if (el.src.match("images/seven.PNG")){
