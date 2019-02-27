@@ -40,7 +40,7 @@ function nextImages(el){
 		el.src = "images/seven.PNG";
 	} else if (el.src.match("images/seven.PNG")){
 		el.src = "images/lemon_slot.png";
-	} else if (el.src.match("images/lemon_slot.png")){
+	} else if (el.src.match("images/lemon_slot.PNG")){
 		el.src = "images/barman.PNG";
 	}else if (el.src.match("images/barman.PNG")){
 		el.src = "images/cherry_slot.PNG";
