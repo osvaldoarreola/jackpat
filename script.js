@@ -23,6 +23,8 @@ function nextImage1(el){
 	if (el.src.match("images/lemon_slot.PNG")){
 		el.src = "images/barman.PNG";
 	} else if (el.src.match("images/barman.PNG")){
+		el.src = "images/seven.PNG";
+	}else if (el.src.match("images/seven.PNG")){
 		el.src = "images/cherry_slot.PNG";
 	} else if (el.src.match("images/cherry_slot.PNG")){
 		el.src = "images/lemon_slot.PNG";
@@ -36,10 +38,12 @@ function nextImages(el){
 		el.src = "images/cherry_slot.PNG";
 	} else if (el.src.match("images/cherry_slot.PNG")){
 		el.src = "images/seven.PNG";
-	} else if (el.src.match("images/seven_slot.PNG")){
+	} else if (el.src.match("images/seven.PNG")){
 		el.src = "images/lemon_slot.png";
 	} else if (el.src.match("images/lemon_slot.png")){
-		el.src = "images/orange_slot.PNG";
+		el.src = "images/barman.PNG";
+	}else if (el.src.match("images/barman.PNG")){
+		el.src = "images/cherry_slot.PNG";
 	} else {
 		
 	}
