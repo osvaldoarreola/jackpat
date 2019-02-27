@@ -13,13 +13,10 @@ el.src = "images/waterberry.png"
 }else if (el.src.match("images/waterberry.png")){
 // if the image is an orange, change it to a cherry!
 el.src = "images/seven.png"
-}else if (el.src.match("images/waterberry.png")){
-// if the image is an orange, change it to a cherry!
-el.src = "images/seven.png"
-}else if (el.src.match("images/seven.png")){
+}else if (el.src.match("images/seven.PNG")){
 // if the image is an orange, change it to a cherry!
 el.src = "images/barman.png"
-}else if (el.src.match("images/barman.png")){
+}else if (el.src.match("images/barman.PNG)){
 // if the image is an orange, change it to a cherry!
 el.src = "images/cherry_slot.PNG"
 }
